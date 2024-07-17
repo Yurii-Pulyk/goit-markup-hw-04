@@ -147,15 +147,17 @@ position: relative;
     /*TODO----Hero---- */
 
     .hero {
-        background: #2e2f42;   
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
         padding: 188px 0;
-       
+        max-width: 1440px;
+        margin: auto;   
     }
         
 
     .hero-title {
-        
-    
         max-width: 496px;
         margin: 0 auto 48px;
         font-weight: 700;
@@ -181,6 +183,7 @@ position: relative;
     height: 56px;
     margin: 0 auto;
     border: none;
+    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     .hero-btn:hover {
         
@@ -197,7 +200,6 @@ position: relative;
         margin: -1px;
         border: 0;
         padding: 0;
-        
         white-space: nowrap;
         clip-path: inset(100%);
         clip: rect(0 0 0 0);
@@ -220,6 +222,21 @@ position: relative;
     .feature-item {
         
         width: calc((100% - 72px) / 4);
+    }
+    .feature-icon{
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        height: 112px;
+        background-color: #f4f4fd;
+        border-radius: 4px;
+        border: 1px solid #8e8f99;
+        margin-bottom: 8px;
+    }
+
+    .feature-icon-item{
+        width:64px;
+        height: 64px;
     }
 
     .feature-subtitle {
