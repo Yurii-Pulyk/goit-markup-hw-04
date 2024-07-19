@@ -209,6 +209,7 @@ position: relative;
 
     .features {
         padding: 120px 0
+        max-width: 1128px;
     }
 
     .features-list {
@@ -556,9 +557,9 @@ margin-bottom: 16px;
 
 }
 
-.social-link:hover .social-link:focus{
+.social-link:hover,.social-link:focus{
 background-color: #31d0aa;
 }
 .social-link-item{
-
+    fill:#f4f4fd;
 }
