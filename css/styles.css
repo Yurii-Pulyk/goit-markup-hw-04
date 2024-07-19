@@ -402,7 +402,7 @@ margin-bottom: 72px;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
     width: calc((100% - 48px) / 3);
 }
-.portfolio-subtitel-text:hover .portfolio-blok-text{
+.portfolio-item:hover .portfolio-blok-text{
     transform: translateY(0%);
 }
 
@@ -414,6 +414,7 @@ margin-bottom: 72px;
 .portfolio-blok-text{
 position: absolute;
 top: 0;
+left: 0;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
