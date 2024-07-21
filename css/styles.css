@@ -25,7 +25,7 @@ img {
     display: block;
 }
 /*TODO---- Header---- */
-.container{
+.container,.container-footer, .features{
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
@@ -208,17 +208,14 @@ position: relative;
       }
 
     .features {
-        padding: 120px 0
+        padding: 120px 0;
         max-width: 1128px;
     }
 
     .features-list {
-        
-        
         display: flex;
         align-items: center;
-        gap: 24px;
-        
+        gap: 24px;  
     }
 
     .feature-item {
@@ -327,10 +324,11 @@ text-align: center;
     width: 40px;
     height: 40px;
     background-color: #4d5ae5;
-    border-radius: 50;
+    border-radius: 50%;
     }
-.employee-icon-item :hover :focus{
+.employee-icon-link:hover, .employee-icon-item :focus{
     background-color: #404bbf;
+    border-radius: 50%;
 }
 .icon-svg{
 fill: #f4f4fd;
@@ -466,6 +464,7 @@ position: absolute;
 .footer{
     background: #2e2f42;
     padding: 100px 0;
+    
 }
 .container-footer{
     display: flex;
@@ -473,8 +472,8 @@ position: absolute;
 }
 
 .footer-blok-one{
-    /* display: flex; */
-    /* align-items: baseline; */
+   /* display: flex; 
+     align-items: baseline; */
     margin-right: 120px;
 }
 .footer-loggo {
