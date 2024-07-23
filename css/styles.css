@@ -330,7 +330,11 @@ text-align: center;
 .employee-icon-link:focus 
 {background-color: #404bbf;}
 
-    
+.icon-svg:hover,
+.icon-svg:focus{
+    background-color: #404bbf;}
+
+}  
         
 
 
