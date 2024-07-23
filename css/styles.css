@@ -25,7 +25,7 @@ img {
     display: block;
 }
 /*TODO---- Header---- */
-.container,.container-footer{
+.container,.container-footer,.features{
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
@@ -234,8 +234,6 @@ position: relative;
     }
 
     .feature-icon-item{
-        width:64px;
-        height: 64px;
     }
 
     .feature-subtitle {
