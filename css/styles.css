@@ -328,13 +328,13 @@ text-align: center;
     border-radius: 50%;
     /* transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
     }
-.employee-icon-link:hover{
-    background-color: #404bbf;
-    
-}
+.employee-icon-link:hover,
 .employee-icon-link:focus{
     background-color: #404bbf;
-}
+    }
+
+
+
 .icon-svg{
 fill: #f4f4fd;
 
